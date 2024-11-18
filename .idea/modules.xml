@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MZBannerView.iml" filepath="$PROJECT_DIR$/.idea/modules/MZBannerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MZBannerView.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.iml" filepath="$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mzbanner/MZBannerView.mzbanner.unitTest.iml" />
+    </modules>
+  </component>
+</project>

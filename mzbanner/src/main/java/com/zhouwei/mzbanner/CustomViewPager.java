@@ -1,9 +1,11 @@
 package com.zhouwei.mzbanner;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.util.SparseArray;
+import android.view.MotionEvent;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -63,5 +65,26 @@ public class CustomViewPager extends ViewPager {
         int[] array = new int[2];
         view.getLocationOnScreen(array);
         return array[0] + view.getWidth() / 2;
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    @Override
+    public boolean onTouchEvent(MotionEvent ev) {
+        try {
+            return super.onTouchEvent(ev);
+        } catch (IllegalArgumentException ex) {
+            ex.printStackTrace();
+        }
+        return false;
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        try {
+            return super.onInterceptTouchEvent(ev);
+        } catch (IllegalArgumentException ex) {
+            ex.printStackTrace();
+        }
+        return false;
     }
 }
